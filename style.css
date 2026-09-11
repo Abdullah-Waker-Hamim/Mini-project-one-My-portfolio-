@@ -63,8 +63,7 @@ img { max-width: 100%; display: block; }
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(239, 237, 230, 0.92);
-  backdrop-filter: blur(6px);
+  background: #6476cd;
   border-bottom: 1px solid #cdcabd;
 }
 
@@ -74,7 +73,6 @@ img { max-width: 100%; display: block; }
   justify-content: space-between;
   padding-top: 16px;
   padding-bottom: 16px;
-  background: #6476cd;
 }
 
 .wordmark {
@@ -253,6 +251,11 @@ img { max-width: 100%; display: block; }
   border: 1px solid #cdcabd;
   border-radius: 3px;
   padding: 4px 9px;
+}
+
+.link-row {
+  display: flex;
+  gap: 20px;
 }
 
 .contact-section {
