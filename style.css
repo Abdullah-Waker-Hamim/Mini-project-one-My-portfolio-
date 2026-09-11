@@ -30,7 +30,7 @@ a {
   text-underline-offset: 3px;
 }
 
-a:hover { color: #000000; }
+a:hover { color: #3d3d94; }
 
 a:focus-visible,
 button:focus-visible,
